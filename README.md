@@ -13,4 +13,4 @@ A basic reset and clearfix are included in sass/base/reset.scss and sass/base/ba
 #### `npm start` (start development)
 Watches the Sass source files and automatically recompiles them to CSS whenever you save a change.
 #### `npm run build:css` (compile sass into css)
-ready for production
+Ready for production
