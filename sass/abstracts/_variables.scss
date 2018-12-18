@@ -1,0 +1,62 @@
+//  --------------------------------------------------------------------------------
+//  Contains all application-wide Sass variables
+//  --------------------------------------------------------------------------------
+
+@import 'color';
+// Theme colors
+$primary:         $blue      !default;
+$secondary:       $gray-600  !default;
+$success:         $green     !default;
+$info:            $cyan      !default;
+$warning:         $yellow    !default;
+$alert:           $red       !default;
+$light:           $gray-100  !default;
+$dark:            $gray-800  !default;
+
+// Main brand color
+$color-primary:         $green      !default;
+$color-primary-light:   $green-300  !default;
+$color-primary-dark:    $green-800  !default;
+$color-secondary:       $yellow     !default;
+$color-tertiary:        $indigo     !default;
+$color-highlight:     #D8252D     !default;
+
+$color-grey-light-1: #faf9f9;
+$color-grey-light-2: #f4f2f2;
+$color-grey-light-3: #eee;
+
+$color-grey-dark-1: #999;
+$color-grey-dark-2: #777;
+$color-grey-dark-3: #333;
+
+// Options
+
+
+// Spacing
+
+
+// Regular font family
+$font-primary: 'Nunito', sans-serif;
+$font-display: 'Josefin Sans', sans-serif;
+
+// Text color
+$text-color: #FFF !default;
+
+// Others
+$link-color: #D8252D !default;
+
+/// Breakpoints map
+$breakpoints: (
+    'largest':      80em,   // 1280px
+    'large':        64em,   // 1024px
+    'medium':       48em,   // 768px
+    'small':        40em,   // 600px
+    'smallest':     30em,   // 480px
+) !default;
+
+
+/// Relative URL where all assets are served from
+/// @type String
+/// @exmple scss When using on your own domain
+/// $base-url: 'https://your-own-domain.com/assets/';
+$base-url: '/assets/' !default;

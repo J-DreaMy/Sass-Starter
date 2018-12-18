@@ -1,0 +1,13 @@
+//  --------------------------------------------------------------------------------
+//  Contains application-wide typography properties
+//  --------------------------------------------------------------------------------
+
+/**
+ * Basic typography style
+ */
+ body {
+   font-family: $font-primary;
+   color: $color-grey-dark-1;
+   font-weight: 300;
+   line-height: 1.6;
+ }
